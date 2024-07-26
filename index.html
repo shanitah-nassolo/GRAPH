@@ -2,22 +2,30 @@
 <html>
 <head>
 	<title>Devices Sold Graph</title>
-    <link rel="stylesheet" href="style">
+    <link rel="stylesheet" href="graph">
     <style>
         canvas {
             border: 1px solid #d3d3d3;
         }
     </style>
 </head>
+<h1>GADGETS SOLD BY SAMSUNG AND IPHONE</h2>
 <body>
-	<h1>GADGET SALES WITH SAMSUNG AND IPHONE</h1>
 	<canvas id="myChart" width="400" height="400"></canvas>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+<!--internal JavaScript is used in this HTML code. The JavaScript code is written directly within the HTML file, inside the <script> tags. -->
+
 
     <script>
+// 		The internal JavaScript code in this example is used to:
+
+// 1. Get the context of the canvas element
+// 2. Create a new chart using the Chart.js library
+// 3. Define the chart's data, labels, and options
+
 		// Get the context of the canvas element
 		var ctx = document.getElementById("myChart").getContext("2d");
 		
@@ -55,6 +63,8 @@
 			}
 		});
 	</script>
-    <script src="graph.js"></script>
+    <!-- <script src="graph.js"></script> -->
 </body>
 </html>
+
+
